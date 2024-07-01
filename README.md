@@ -1,4 +1,4 @@
-# Code is being cleaned and will be available on 1st of July
+# Code is being cleaned and will be available before the 19th of July
 ## Description
 This project contains the components of a CRAN implementation for LPWANs. It includes the support of the LoRa modulation compatible with commercial LoRa devices. The architecture has been implemented to have a centralized server that executes the baseband unit (BBU) and the application server. The RRH can be built and executed on a Raspberry Pi.
 ![arch_overview-1024x322](https://github.com/tapparelj/cranForLpwan/assets/66671413/46cf7b18-fdcc-47d7-969d-93d64353f8c7)
