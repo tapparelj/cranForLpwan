@@ -1,0 +1,17 @@
+id: cran_rx_combining
+label: rx combining
+category: '[Cran]'
+templates:
+  imports: from gnuradio import cran
+  make: cran.rx_combining(${input_addr})
+parameters:
+- id: input_addr
+  label: Input_addr
+  dtype: string
+outputs:
+- label: out
+  domain: stream
+  dtype: raw
+  vlen: ${ SF_MAX }
+  multiplicity: 1 /*max outputs */
+file_format: 1

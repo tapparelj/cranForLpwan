@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="utilities_8h" kind="file">
+    <compoundname>utilities.h</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">numeric</includes>
+    <includes local="no">gnuradio/expj.h</includes>
+    <includes local="no">sys/resource.h</includes>
+    <includes local="no">sys/syscall.h</includes>
+    <includes local="no">volk/volk.h</includes>
+    <includes local="no">algorithm</includes>
+    <includedby refid="add__crc__impl_8h" local="no">add_crc_impl.h</includedby>
+    <includedby refid="data__source__impl_8h" local="no">data_source_impl.h</includedby>
+    <includedby refid="fft__demod__impl_8h" local="no">fft_demod_impl.h</includedby>
+    <includedby refid="frame__sync__impl_8h" local="no">frame_sync_impl.h</includedby>
+    <includedby refid="header__decoder__impl_8h" local="no">header_decoder_impl.h</includedby>
+    <includedby refid="modulate__impl_8h" local="no">modulate_impl.h</includedby>
+    <includedby refid="whitening__impl_8h" local="no">whitening_impl.h</includedby>
+    <incdepgraph>
+      <node id="1174">
+        <label>utilities.h</label>
+        <link refid="utilities.h"/>
+        <childnode refid="1175" relation="include">
+        </childnode>
+        <childnode refid="1176" relation="include">
+        </childnode>
+        <childnode refid="1177" relation="include">
+        </childnode>
+        <childnode refid="1178" relation="include">
+        </childnode>
+        <childnode refid="1179" relation="include">
+        </childnode>
+        <childnode refid="1180" relation="include">
+        </childnode>
+        <childnode refid="1181" relation="include">
+        </childnode>
+        <childnode refid="1182" relation="include">
+        </childnode>
+        <childnode refid="1183" relation="include">
+        </childnode>
+      </node>
+      <node id="1179">
+        <label>gnuradio/expj.h</label>
+      </node>
+      <node id="1177">
+        <label>iomanip</label>
+      </node>
+      <node id="1182">
+        <label>volk/volk.h</label>
+      </node>
+      <node id="1175">
+        <label>cstdint</label>
+      </node>
+      <node id="1178">
+        <label>numeric</label>
+      </node>
+      <node id="1180">
+        <label>sys/resource.h</label>
+      </node>
+      <node id="1176">
+        <label>string.h</label>
+      </node>
+      <node id="1181">
+        <label>sys/syscall.h</label>
+      </node>
+      <node id="1183">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1184">
+        <label>utilities.h</label>
+        <link refid="utilities.h"/>
+        <childnode refid="1185" relation="include">
+        </childnode>
+        <childnode refid="1186" relation="include">
+        </childnode>
+        <childnode refid="1187" relation="include">
+        </childnode>
+        <childnode refid="1188" relation="include">
+        </childnode>
+        <childnode refid="1189" relation="include">
+        </childnode>
+        <childnode refid="1190" relation="include">
+        </childnode>
+        <childnode refid="1191" relation="include">
+        </childnode>
+      </node>
+      <node id="1191">
+        <label>whitening_impl.h</label>
+        <link refid="whitening__impl_8h"/>
+      </node>
+      <node id="1189">
+        <label>header_decoder_impl.h</label>
+        <link refid="header__decoder__impl_8h"/>
+      </node>
+      <node id="1190">
+        <label>modulate_impl.h</label>
+        <link refid="modulate__impl_8h"/>
+      </node>
+      <node id="1186">
+        <label>data_source_impl.h</label>
+        <link refid="data__source__impl_8h"/>
+      </node>
+      <node id="1188">
+        <label>frame_sync_impl.h</label>
+        <link refid="frame__sync__impl_8h"/>
+      </node>
+      <node id="1187">
+        <label>fft_demod_impl.h</label>
+        <link refid="fft__demod__impl_8h"/>
+      </node>
+      <node id="1185">
+        <label>add_crc_impl.h</label>
+        <link refid="add__crc__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="utilities_8h_1a852a6cbd75dc6bcc72d6f336db880d2b" prot="public" static="no">
+        <name>print</name>
+        <param><defname>message</defname></param>
+        <initializer>std::cout&lt;&lt; message &lt;&lt;std::endl</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" line="14" column="9" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="utilities_8h_1ab702106cf3b3e96750b6845ded4e0299" prot="public" static="no">
+        <name>RESET</name>
+        <initializer>&quot;\033[0m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" line="20" column="17" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="utilities_8h_1a8d23feea868a983c8c2b661e1e16972f" prot="public" static="no">
+        <name>RED</name>
+        <initializer>&quot;\033[31m&quot;      /* Red */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" line="21" column="17" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="utilities_8h_1a7de82e0e7763bb855bf3a364a4b48de0" prot="public" static="no">
+        <name>MIN_SF</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" line="23" column="17" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="utilities_8h_1a834c5b1bb1236ae1ac553ffafd8d537e" prot="public" static="no">
+        <name>MAX_SF</name>
+        <initializer>12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" line="24" column="17" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="utilities_8h_1ae78c6ca5ac1228e01644372440241a34" prot="public" static="no">
+        <name>LDRO_MAX_DURATION_MS</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" line="38" column="17" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/utilities.h"/>
+  </compounddef>
+</doxygen>

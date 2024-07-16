@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="whitening__impl_8h" kind="file">
+    <compoundname>whitening_impl.h</compoundname>
+    <includes refid="whitening_8h" local="no">gnuradio/lora_sdr/whitening.h</includes>
+    <includes refid="utilities_8h" local="no">gnuradio/lora_sdr/utilities.h</includes>
+    <incdepgraph>
+      <node id="1212">
+        <label>gnuradio/lora_sdr/utilities.h</label>
+        <link refid="utilities_8h"/>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1217" relation="include">
+        </childnode>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1219" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1221" relation="include">
+        </childnode>
+      </node>
+      <node id="1217">
+        <label>gnuradio/expj.h</label>
+      </node>
+      <node id="1215">
+        <label>iomanip</label>
+      </node>
+      <node id="1220">
+        <label>volk/volk.h</label>
+      </node>
+      <node id="1213">
+        <label>cstdint</label>
+      </node>
+      <node id="1216">
+        <label>numeric</label>
+      </node>
+      <node id="1210">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="1209">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1210" relation="include">
+        </childnode>
+      </node>
+      <node id="1218">
+        <label>sys/resource.h</label>
+      </node>
+      <node id="1207">
+        <label>whitening_impl.h</label>
+        <link refid="whitening_impl.h"/>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1208">
+        <label>gnuradio/lora_sdr/whitening.h</label>
+        <link refid="whitening_8h"/>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1211" relation="include">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>string.h</label>
+      </node>
+      <node id="1211">
+        <label>gnuradio/sync_interpolator.h</label>
+      </node>
+      <node id="1219">
+        <label>sys/syscall.h</label>
+      </node>
+      <node id="1221">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1whitening__impl" prot="public">gr::lora_sdr::whitening_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/lib/whitening_impl.h"/>
+  </compounddef>
+</doxygen>

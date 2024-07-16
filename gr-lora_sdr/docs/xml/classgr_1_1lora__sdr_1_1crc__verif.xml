@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classgr_1_1lora__sdr_1_1crc__verif" kind="class" prot="public">
+    <compoundname>gr::lora_sdr::crc_verif</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1lora__sdr_1_1crc__verif__impl" prot="public" virt="non-virtual">gr::lora_sdr::crc_verif_impl</derivedcompoundref>
+    <includes refid="crc__verif_8h" local="no">crc_verif.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lora__sdr_1_1crc__verif_1aec20c88ce13bce2acc35d8e68fcada6e" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1lora__sdr_1_1crc__verif" kindref="compound">crc_verif</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;crc_verif&gt; gr::lora_sdr::crc_verif::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/crc_verif.h" line="39" column="1" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/crc_verif.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lora__sdr_1_1crc__verif_1a28fc939381d1835508e975bd1534ec76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lora__sdr_1_1crc__verif_1aec20c88ce13bce2acc35d8e68fcada6e" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lora_sdr::crc_verif::make</definition>
+        <argsstring>(bool print_rx_msg, bool output_crc_check)</argsstring>
+        <name>make</name>
+        <param>
+          <type>bool</type>
+          <declname>print_rx_msg</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output_crc_check</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lora__sdr_1_1crc__verif" kindref="compound">lora_sdr::crc_verif</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1lora__sdr_1_1crc__verif" kindref="compound">lora_sdr::crc_verif</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1lora__sdr_1_1crc__verif_1a28fc939381d1835508e975bd1534ec76" kindref="member">lora_sdr::crc_verif::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/crc_verif.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="121">
+        <label>gr::lora_sdr::crc_verif</label>
+        <link refid="classgr_1_1lora__sdr_1_1crc__verif"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>block</label>
+      </node>
+      <node id="123">
+        <label>gr::lora_sdr::crc_verif_impl</label>
+        <link refid="classgr_1_1lora__sdr_1_1crc__verif__impl"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="124">
+        <label>gr::lora_sdr::crc_verif</label>
+        <link refid="classgr_1_1lora__sdr_1_1crc__verif"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="125">
+        <label>block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/crc_verif.h" line="37" column="1" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/crc_verif.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lora__sdr_1_1crc__verif_1a28fc939381d1835508e975bd1534ec76" prot="public" virt="non-virtual"><scope>gr::lora_sdr::crc_verif</scope><name>make</name></member>
+      <member refid="classgr_1_1lora__sdr_1_1crc__verif_1aec20c88ce13bce2acc35d8e68fcada6e" prot="public" virt="non-virtual"><scope>gr::lora_sdr::crc_verif</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

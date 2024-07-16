@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_359d2bec989c9a8deeeb9aee335c1c76" kind="dir">
+    <compoundname>doxygen</compoundname>
+    <innerfile refid="docs_2doxygen_2pydoc__macros_8h">docs/doxygen/pydoc_macros.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/docs/doxygen/"/>
+  </compounddef>
+</doxygen>

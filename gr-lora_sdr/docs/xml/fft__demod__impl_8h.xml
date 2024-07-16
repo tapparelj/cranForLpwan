@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="fft__demod__impl_8h" kind="file">
+    <compoundname>fft_demod_impl.h</compoundname>
+    <includes refid="fft__demod_8h" local="no">gnuradio/lora_sdr/fft_demod.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">volk/volk.h</includes>
+    <includes local="no">gnuradio/io_signature.h</includes>
+    <includes refid="utilities_8h" local="no">gnuradio/lora_sdr/utilities.h</includes>
+    <incdepgraph>
+      <node id="804">
+        <label>gnuradio/lora_sdr/utilities.h</label>
+        <link refid="utilities_8h"/>
+        <childnode refid="805" relation="include">
+        </childnode>
+        <childnode refid="806" relation="include">
+        </childnode>
+        <childnode refid="807" relation="include">
+        </childnode>
+        <childnode refid="808" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="812" relation="include">
+        </childnode>
+      </node>
+      <node id="809">
+        <label>gnuradio/expj.h</label>
+      </node>
+      <node id="807">
+        <label>iomanip</label>
+      </node>
+      <node id="802">
+        <label>volk/volk.h</label>
+      </node>
+      <node id="805">
+        <label>cstdint</label>
+      </node>
+      <node id="808">
+        <label>numeric</label>
+      </node>
+      <node id="798">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="797">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="798" relation="include">
+        </childnode>
+      </node>
+      <node id="801">
+        <label>fstream</label>
+      </node>
+      <node id="810">
+        <label>sys/resource.h</label>
+      </node>
+      <node id="806">
+        <label>string.h</label>
+      </node>
+      <node id="799">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="803">
+        <label>gnuradio/io_signature.h</label>
+      </node>
+      <node id="800">
+        <label>iostream</label>
+      </node>
+      <node id="796">
+        <label>gnuradio/lora_sdr/fft_demod.h</label>
+        <link refid="fft__demod_8h"/>
+        <childnode refid="797" relation="include">
+        </childnode>
+        <childnode refid="799" relation="include">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>sys/syscall.h</label>
+      </node>
+      <node id="795">
+        <label>fft_demod_impl.h</label>
+        <link refid="fft_demod_impl.h"/>
+        <childnode refid="796" relation="include">
+        </childnode>
+        <childnode refid="800" relation="include">
+        </childnode>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+        <childnode refid="804" relation="include">
+        </childnode>
+      </node>
+      <node id="812">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1fft__demod__impl" prot="public">gr::lora_sdr::fft_demod_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/lib/fft_demod_impl.h"/>
+  </compounddef>
+</doxygen>

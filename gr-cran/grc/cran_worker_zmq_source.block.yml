@@ -1,0 +1,26 @@
+id: cran_worker_zmq_source
+label: worker zmq source
+category: '[Cran]'
+flags: [python,cpp]
+templates:
+  imports: import gnuradio.cran as cran
+  make: cran.worker_zmq_source(${broker_addr})
+cpp_templates:
+    includes: ['#include "worker_zmq_source.h"']
+    declarations: 'lora_sdr::worker_zmq_source::sptr ${id};'
+    make: 'this->${id} = lora_sdr::worker_zmq_source::make(${broker_addr});'
+    translations:
+      \': '"'
+      
+parameters:
+- id: broker_addr
+  label: Broker_addr
+  dtype: string
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+inputs:
+- id: frame_end
+  domain: message
+file_format: 1

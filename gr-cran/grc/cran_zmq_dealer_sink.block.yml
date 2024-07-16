@@ -1,0 +1,15 @@
+id: cran_zmq_dealer_sink
+label: zmq dealer sink
+category: '[Cran]'
+templates:
+  imports: from gnuradio import cran
+  make: cran.zmq_dealer_sink(${dest_addr})
+parameters:
+- id: dest_addr
+  label: Dest_addr
+  dtype: string
+inputs:
+- label: in
+  domain: stream
+  dtype: raw
+file_format: 1

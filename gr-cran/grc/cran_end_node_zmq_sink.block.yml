@@ -1,0 +1,18 @@
+id: cran_end_node_zmq_sink
+label: end node zmq sink
+category: '[Cran]'
+templates:
+  imports: import gnuradio.cran as cran
+  make: cran.end_node_zmq_sink(${rrh_addr}, ${samp_rate})
+parameters:
+- id: rrh_addr
+  label: Rrh_addr
+  dtype: string
+- id: samp_rate
+  label: Samp_rate
+  dtype: int
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+file_format: 1

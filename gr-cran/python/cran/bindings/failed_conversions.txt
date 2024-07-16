@@ -1,0 +1,7 @@
+./include/cran/end_node_zmq_sink.hError occurred while running CASTXML:  status:1
+./include/cran/worker_zmq_source.hError occurred while running CASTXML:  status:1
+./include/gnuradio/cran/lora_frame_detector_single_sf.hError occurred while running CASTXML xml file does not exist
+./include/gnuradio/cran/lora_frame_detector_single_sf.hError occurred while running CASTXML xml file does not exist
+./include/gnuradio/cran/lora_frame_detector_single_sf.hError occurred while running CASTXML xml file does not exist
+./include/gnuradio/cran/lora_frame_detector_single_sf.h'line'
+./include/gnuradio/cran/lora_frame_detector_single_sf.h'line'

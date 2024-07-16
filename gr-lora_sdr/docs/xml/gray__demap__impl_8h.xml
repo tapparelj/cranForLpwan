@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="gray__demap__impl_8h" kind="file">
+    <compoundname>gray_demap_impl.h</compoundname>
+    <includes refid="gray__demap_8h" local="no">gnuradio/lora_sdr/gray_demap.h</includes>
+    <incdepgraph>
+      <node id="868">
+        <label>gnuradio/lora_sdr/gray_demap.h</label>
+        <link refid="gray__demap_8h"/>
+        <childnode refid="869" relation="include">
+        </childnode>
+        <childnode refid="871" relation="include">
+        </childnode>
+      </node>
+      <node id="871">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="867">
+        <label>gray_demap_impl.h</label>
+        <link refid="gray_demap_impl.h"/>
+        <childnode refid="868" relation="include">
+        </childnode>
+      </node>
+      <node id="870">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="869">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="870" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1gray__demap__impl" prot="public">gr::lora_sdr::gray_demap_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/lib/gray_demap_impl.h"/>
+  </compounddef>
+</doxygen>

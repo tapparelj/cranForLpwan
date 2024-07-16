@@ -1,0 +1,15 @@
+id: cran_rrh_zmq_sink
+label: rrh zmq sink
+category: '[Cran]'
+templates:
+  imports: import gnuradio.cran as cran
+  make: cran.rrh_zmq_sink(${broker_addr})
+parameters:
+- id: broker_addr
+  label: Broker_addr
+  dtype: string
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+file_format: 1

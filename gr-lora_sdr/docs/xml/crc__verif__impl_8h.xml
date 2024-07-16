@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="crc__verif__impl_8h" kind="file">
+    <compoundname>crc_verif_impl.h</compoundname>
+    <includes refid="crc__verif_8h" local="no">gnuradio/lora_sdr/crc_verif.h</includes>
+    <incdepgraph>
+      <node id="704">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="703">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="704" relation="include">
+        </childnode>
+      </node>
+      <node id="701">
+        <label>crc_verif_impl.h</label>
+        <link refid="crc_verif_impl.h"/>
+        <childnode refid="702" relation="include">
+        </childnode>
+      </node>
+      <node id="705">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="702">
+        <label>gnuradio/lora_sdr/crc_verif.h</label>
+        <link refid="crc__verif_8h"/>
+        <childnode refid="703" relation="include">
+        </childnode>
+        <childnode refid="705" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1crc__verif__impl" prot="public">gr::lora_sdr::crc_verif_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/lib/crc_verif_impl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="add__crc__impl_8h" kind="file">
+    <compoundname>add_crc_impl.h</compoundname>
+    <includes refid="add__crc_8h" local="no">gnuradio/lora_sdr/add_crc.h</includes>
+    <includes refid="utilities_8h" local="no">gnuradio/lora_sdr/utilities.h</includes>
+    <incdepgraph>
+      <node id="635">
+        <label>gnuradio/lora_sdr/utilities.h</label>
+        <link refid="utilities_8h"/>
+        <childnode refid="636" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="640" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+        <childnode refid="642" relation="include">
+        </childnode>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="644" relation="include">
+        </childnode>
+      </node>
+      <node id="640">
+        <label>gnuradio/expj.h</label>
+      </node>
+      <node id="638">
+        <label>iomanip</label>
+      </node>
+      <node id="643">
+        <label>volk/volk.h</label>
+      </node>
+      <node id="636">
+        <label>cstdint</label>
+      </node>
+      <node id="639">
+        <label>numeric</label>
+      </node>
+      <node id="631">
+        <label>gnuradio/lora_sdr/add_crc.h</label>
+        <link refid="add__crc_8h"/>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="634" relation="include">
+        </childnode>
+      </node>
+      <node id="633">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="632">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="633" relation="include">
+        </childnode>
+      </node>
+      <node id="641">
+        <label>sys/resource.h</label>
+      </node>
+      <node id="637">
+        <label>string.h</label>
+      </node>
+      <node id="634">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="642">
+        <label>sys/syscall.h</label>
+      </node>
+      <node id="644">
+        <label>algorithm</label>
+      </node>
+      <node id="630">
+        <label>add_crc_impl.h</label>
+        <link refid="add_crc_impl.h"/>
+        <childnode refid="631" relation="include">
+        </childnode>
+        <childnode refid="635" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1add__crc__impl" prot="public">gr::lora_sdr::add_crc_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/lib/add_crc_impl.h"/>
+  </compounddef>
+</doxygen>

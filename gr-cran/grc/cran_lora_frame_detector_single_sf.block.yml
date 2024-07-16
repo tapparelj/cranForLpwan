@@ -1,0 +1,19 @@
+id: cran_lora_frame_detector_single_sf
+label: lora frame detector single sf
+category: '[Cran]'
+templates:
+  imports: from gnuradio import cran
+  make: cran.lora_frame_detector_single_sf(${samp_rate})
+parameters:
+- id: samp_rate
+  label: Samp_rate
+  dtype: int
+inputs:
+- label: in
+  domain: stream
+  dtype: raw
+outputs:
+- label: out
+  domain: stream
+  dtype: raw
+file_format: 1

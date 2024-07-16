@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="api_8h" kind="file">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="add__crc_8h" local="no">add_crc.h</includedby>
+    <includedby refid="crc__verif_8h" local="no">crc_verif.h</includedby>
+    <includedby refid="data__source_8h" local="no">data_source.h</includedby>
+    <includedby refid="deinterleaver_8h" local="no">deinterleaver.h</includedby>
+    <includedby refid="dewhitening_8h" local="no">dewhitening.h</includedby>
+    <includedby refid="fft__demod_8h" local="no">fft_demod.h</includedby>
+    <includedby refid="frame__sync_8h" local="no">frame_sync.h</includedby>
+    <includedby refid="gray__demap_8h" local="no">gray_demap.h</includedby>
+    <includedby refid="gray__mapping_8h" local="no">gray_mapping.h</includedby>
+    <includedby refid="hamming__dec_8h" local="no">hamming_dec.h</includedby>
+    <includedby refid="hamming__enc_8h" local="no">hamming_enc.h</includedby>
+    <includedby refid="header_8h" local="no">header.h</includedby>
+    <includedby refid="header__decoder_8h" local="no">header_decoder.h</includedby>
+    <includedby refid="interleaver_8h" local="no">interleaver.h</includedby>
+    <includedby refid="modulate_8h" local="no">modulate.h</includedby>
+    <includedby refid="no__sfo__frame__sync_8h" local="no">no_sfo_frame_sync.h</includedby>
+    <includedby refid="payload__id__inc_8h" local="no">payload_id_inc.h</includedby>
+    <includedby refid="RH__RF95__header_8h" local="no">RH_RF95_header.h</includedby>
+    <includedby refid="whitening_8h" local="no">whitening.h</includedby>
+    <incdepgraph>
+      <node id="656">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="655">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="656" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="670">
+        <label>frame_sync.h</label>
+        <link refid="frame__sync_8h"/>
+        <childnode refid="671" relation="include">
+        </childnode>
+      </node>
+      <node id="672">
+        <label>gray_demap.h</label>
+        <link refid="gray__demap_8h"/>
+        <childnode refid="673" relation="include">
+        </childnode>
+      </node>
+      <node id="673">
+        <label>gray_demap_impl.h</label>
+        <link refid="gray__demap__impl_8h"/>
+      </node>
+      <node id="658">
+        <label>add_crc.h</label>
+        <link refid="add__crc_8h"/>
+        <childnode refid="659" relation="include">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>deinterleaver_impl.h</label>
+        <link refid="deinterleaver__impl_8h"/>
+      </node>
+      <node id="681">
+        <label>header_impl.h</label>
+        <link refid="header__impl_8h"/>
+      </node>
+      <node id="666">
+        <label>dewhitening.h</label>
+        <link refid="dewhitening_8h"/>
+        <childnode refid="667" relation="include">
+        </childnode>
+      </node>
+      <node id="680">
+        <label>header.h</label>
+        <link refid="header_8h"/>
+        <childnode refid="681" relation="include">
+        </childnode>
+      </node>
+      <node id="657">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="658" relation="include">
+        </childnode>
+        <childnode refid="660" relation="include">
+        </childnode>
+        <childnode refid="662" relation="include">
+        </childnode>
+        <childnode refid="664" relation="include">
+        </childnode>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="668" relation="include">
+        </childnode>
+        <childnode refid="670" relation="include">
+        </childnode>
+        <childnode refid="672" relation="include">
+        </childnode>
+        <childnode refid="674" relation="include">
+        </childnode>
+        <childnode refid="676" relation="include">
+        </childnode>
+        <childnode refid="678" relation="include">
+        </childnode>
+        <childnode refid="680" relation="include">
+        </childnode>
+        <childnode refid="682" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+        <childnode refid="691" relation="include">
+        </childnode>
+        <childnode refid="693" relation="include">
+        </childnode>
+      </node>
+      <node id="661">
+        <label>crc_verif_impl.h</label>
+        <link refid="crc__verif__impl_8h"/>
+      </node>
+      <node id="675">
+        <label>gray_mapping_impl.h</label>
+        <link refid="gray__mapping__impl_8h"/>
+      </node>
+      <node id="676">
+        <label>hamming_dec.h</label>
+        <link refid="hamming__dec_8h"/>
+        <childnode refid="677" relation="include">
+        </childnode>
+      </node>
+      <node id="694">
+        <label>whitening_impl.h</label>
+        <link refid="whitening__impl_8h"/>
+      </node>
+      <node id="674">
+        <label>gray_mapping.h</label>
+        <link refid="gray__mapping_8h"/>
+        <childnode refid="675" relation="include">
+        </childnode>
+      </node>
+      <node id="689">
+        <label>payload_id_inc.h</label>
+        <link refid="payload__id__inc_8h"/>
+        <childnode refid="690" relation="include">
+        </childnode>
+      </node>
+      <node id="693">
+        <label>whitening.h</label>
+        <link refid="whitening_8h"/>
+        <childnode refid="694" relation="include">
+        </childnode>
+      </node>
+      <node id="691">
+        <label>RH_RF95_header.h</label>
+        <link refid="RH__RF95__header_8h"/>
+        <childnode refid="692" relation="include">
+        </childnode>
+      </node>
+      <node id="688">
+        <label>no_sfo_frame_sync.h</label>
+        <link refid="no__sfo__frame__sync_8h"/>
+      </node>
+      <node id="679">
+        <label>hamming_enc_impl.h</label>
+        <link refid="hamming__enc__impl_8h"/>
+      </node>
+      <node id="664">
+        <label>deinterleaver.h</label>
+        <link refid="deinterleaver_8h"/>
+        <childnode refid="665" relation="include">
+        </childnode>
+      </node>
+      <node id="683">
+        <label>header_decoder_impl.h</label>
+        <link refid="header__decoder__impl_8h"/>
+      </node>
+      <node id="660">
+        <label>crc_verif.h</label>
+        <link refid="crc__verif_8h"/>
+        <childnode refid="661" relation="include">
+        </childnode>
+      </node>
+      <node id="687">
+        <label>modulate_impl.h</label>
+        <link refid="modulate__impl_8h"/>
+      </node>
+      <node id="662">
+        <label>data_source.h</label>
+        <link refid="data__source_8h"/>
+        <childnode refid="663" relation="include">
+        </childnode>
+      </node>
+      <node id="663">
+        <label>data_source_impl.h</label>
+        <link refid="data__source__impl_8h"/>
+      </node>
+      <node id="668">
+        <label>fft_demod.h</label>
+        <link refid="fft__demod_8h"/>
+        <childnode refid="669" relation="include">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>interleaver_impl.h</label>
+        <link refid="interleaver__impl_8h"/>
+      </node>
+      <node id="686">
+        <label>modulate.h</label>
+        <link refid="modulate_8h"/>
+        <childnode refid="687" relation="include">
+        </childnode>
+      </node>
+      <node id="682">
+        <label>header_decoder.h</label>
+        <link refid="header__decoder_8h"/>
+        <childnode refid="683" relation="include">
+        </childnode>
+      </node>
+      <node id="690">
+        <label>payload_id_inc_impl.h</label>
+        <link refid="payload__id__inc__impl_8h"/>
+      </node>
+      <node id="671">
+        <label>frame_sync_impl.h</label>
+        <link refid="frame__sync__impl_8h"/>
+      </node>
+      <node id="684">
+        <label>interleaver.h</label>
+        <link refid="interleaver_8h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="669">
+        <label>fft_demod_impl.h</label>
+        <link refid="fft__demod__impl_8h"/>
+      </node>
+      <node id="678">
+        <label>hamming_enc.h</label>
+        <link refid="hamming__enc_8h"/>
+        <childnode refid="679" relation="include">
+        </childnode>
+      </node>
+      <node id="677">
+        <label>hamming_dec_impl.h</label>
+        <link refid="hamming__dec__impl_8h"/>
+      </node>
+      <node id="659">
+        <label>add_crc_impl.h</label>
+        <link refid="add__crc__impl_8h"/>
+      </node>
+      <node id="692">
+        <label>RH_RF95_header_impl.h</label>
+        <link refid="RH__RF95__header__impl_8h"/>
+      </node>
+      <node id="667">
+        <label>dewhitening_impl.h</label>
+        <link refid="dewhitening__impl_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a7f43a70ead7390c8125a3e3273e64b8c" prot="public" static="no">
+        <name>LORA_SDR_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/api.h" line="19" column="10" bodyfile="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/api.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/api.h"/>
+  </compounddef>
+</doxygen>

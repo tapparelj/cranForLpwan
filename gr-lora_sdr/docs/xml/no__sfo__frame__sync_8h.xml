@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="no__sfo__frame__sync_8h" kind="file">
+    <compoundname>no_sfo_frame_sync.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/lora_sdr/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <incdepgraph>
+      <node id="1066">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="1065">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1066" relation="include">
+        </childnode>
+      </node>
+      <node id="1064">
+        <label>no_sfo_frame_sync.h</label>
+        <link refid="no_sfo_frame_sync.h"/>
+        <childnode refid="1065" relation="include">
+        </childnode>
+        <childnode refid="1067" relation="include">
+        </childnode>
+      </node>
+      <node id="1067">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1frame__sync" prot="public">gr::lora_sdr::frame_sync</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jtappare/Documents/lora_gnu_radio_prototype/gr-lora_sdr/include/gnuradio/lora_sdr/no_sfo_frame_sync.h"/>
+  </compounddef>
+</doxygen>
