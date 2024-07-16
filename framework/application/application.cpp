@@ -10,14 +10,12 @@ application::application(std::string pull_addr, std::string savefile) : m_pull_a
 {
   m_savefile = savefile;
 
-  si = new influxdb_cpp::server_info(flux_host, flux_port, flux_bucket, flux_usr, flux_passwd, "ns", flux_token);
 
 }
 application::~application()
 {
   zmq_close(m_pull_socket);
 
-  delete si;
 }
 int application::run()
 {
@@ -105,23 +103,6 @@ int application::run()
         float snr = 10*std::log10(sig_pow/noise_pow);
         std::cout<<"Received: "<<encoded_payload << ","<<(int) sf<<","<<(int) cr<<","<<(int)crc_check<<","<<(int)n_rrh_involved<<","<<buffer_addr <<","<< sig_pow <<","<< noise_pow <<","<<snr<<","<< cfo <<","<< time_full <<","<<std::setprecision(9)<<std::fixed<<time_frac<<std::defaultfloat<<std::endl;
 
-        // Logging to influxdb
-        int ret = influxdb_cpp::builder()
-        .meas(flux_meas)
-        .tag("rrh_id", buffer_addr)       //// To-Do: maps the buffer addresses to the corresponding RRH id (grafana dashboard queries were constructed with id in [0, 3])
-        .field("sf", sf)
-        .field("cr", cr)
-        .field("crc_check", (int) crc_check)  //// current dashboard is constructed with for crc_check of type int; To-Do, modify the dashboard to bool and update the code. 
-        .field("n_rrh_involved", n_rrh_involved)
-        .field("sig_pow", sig_pow)
-        .field("noise_pow", noise_pow)
-        .field("snr", snr)
-        .field("cfo", cfo)
-        .timestamp(time_full + time_frac*1e9)
-        .post_http(*si);
-
-        if(ret)
-          std::cout << RED << "influxdb logging error with code " << ret << RESET << std::endl;
 
         //save to file if filename not empty
         if (m_savefile.compare("") != 0)
@@ -133,41 +114,7 @@ int application::run()
       }
       if (!(++cnt % 10))
         debug_print("Got " << cnt << " messages","","Application",RESET);
-
-      // print string as hex values
-      // std::ostringstream result;
-      // result << std::setw(2) << std::setfill('0') << std::hex << std::uppercase;
-      // std::copy(input_buffer.begin(), input_buffer.end(), std::ostream_iterator<unsigned int>(result, " "));
-      // std::cout << input_buffer << ":" << result.str() << std::endl;
     }
   }
   return 0;
-}
-
-void application::setFluxHost(std::string host){
-  flux_host = host;
-}
-
-void application::setFluxPort(uint16_t port){
-  flux_port = port;
-}
-
-void application::setFluxBucket(std::string bucket){
-  flux_bucket = bucket;
-}
-
-void application::setFluxMeas(std::string meas){
-  flux_meas = meas;
-}
-
-void application::setFluxUser(std::string usr){
-  flux_usr = usr;
-}
-
-void application::setFluxPasswd(std::string passwd){
-  flux_passwd = passwd;
-}
-
-void application::setFluxToken(std::string token){
-  flux_token = token;
 }

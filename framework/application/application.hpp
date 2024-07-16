@@ -18,8 +18,6 @@
 #include "gnuradio/cran/zhelper.h"
 #include "gnuradio/cran/utilities.h"
 
-#include "influxdb.hpp"
-
 class application {
 
 private:
@@ -32,28 +30,10 @@ private:
     std::vector<std::string> buffers_addr;
     std::ofstream result_file;
 
-    // influxdb related variables
-    influxdb_cpp::server_info *si;
-    std::string flux_host;
-    uint16_t flux_port;
-    std::string flux_bucket;
-    std::string flux_meas;              // measurements
-    std::string flux_usr;               // username
-    std::string flux_passwd;
-    std::string flux_token;
-
 public:
     application(std::string pull_addr,std::string savefile);
     ~application();
     int run();
-
-    void setFluxHost(std::string);
-    void setFluxPort(uint16_t);
-    void setFluxBucket(std::string);
-    void setFluxMeas(std::string);
-    void setFluxUser(std::string);
-    void setFluxPasswd(std::string);
-    void setFluxToken(std::string);
 };
 
 
