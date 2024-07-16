@@ -27,9 +27,9 @@ This project contains the components of a CRAN implementation for LPWANs. It inc
     1. Build the module with make
     1. If everything went well you should have some executables generated inside the framework/bin folder bbu, raspi_single_channel_rrh, and application
 
-### Pictures
-Remote radio head board
-
-Remote radio head roof installation
+#### Remote Radio Head Hardware
+<img src="https://github.com/user-attachments/assets/a8ebd903-5ccf-4394-bb11-623d3eb347ef" width="400" >
+<img src="https://github.com/user-attachments/assets/388258b9-fb8e-4e61-bf0f-7ca3b3368e2f" width="400" >
+<img src="https://github.com/user-attachments/assets/0a042f51-8481-481d-854a-8ca188a83ec1" width="300" >
 
 
