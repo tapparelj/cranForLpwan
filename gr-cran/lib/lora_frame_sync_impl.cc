@@ -76,6 +76,10 @@ namespace gr
                 m_sync_words[1] = (tmp & 0x0F) << 3;
             }
 
+            m_cfg = NULL;           // null initialization to avoid segmentation fault on possible delete or free
+            m_fft_in = NULL;
+            m_fft_out = NULL;
+
             set_sf(sf);
             m_prev_bin_idx = std::pair<int, float>(0, 0);
             m_n_repetitions = 1;
